@@ -1,0 +1,11 @@
+SELECT emp_city,COUNT(*) as cnt
+FROM EMPLOYEES
+GROUP BY emp_city
+HAVING COUNT(*)=1
+
+
+
+SELECT emp_city,COUNT(*) as cnt
+FROM EMPLOYEES
+GROUP BY emp_city
+ORDER BY EMP_CITY;
